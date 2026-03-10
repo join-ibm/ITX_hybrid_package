@@ -516,11 +516,14 @@
 </DATA>
 </MAPSET>
 
+<MAPCOPY FROM="/PAIN001;1;0" TO="/data;2;0/string;1;0">
+</MAPCOPY>
+
 <MAPSET NAME="Setter" OVERWRITE="true" VARIABLES="false" GLOBALVARIABLES="false" FIELD="/url;1;0">
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">http://20.199.60.73:8080/tx-rest/v1/itx/maps/direct/Pacs008_to_Pacs002?input=1&amp;output=1</value>
+  <value name="xml">http://20.199.60.73:8080/tx-rest/v1/itx/maps/direct/pain001_to_pacs008?input=1&amp;output=2</value>
   <record name="type" javaclass="com.wm.util.Values">
     <value name="node_type">unknown</value>
     <value name="node_subtype">unknown</value>
@@ -541,9 +544,6 @@
 </Values>
 </DATA>
 </MAPSET>
-
-<MAPCOPY FROM="/PAIN001;1;0" TO="/data;2;0/string;1;0">
-</MAPCOPY>
 </MAP>
 
 <MAP MODE="OUTPUT">
